@@ -1,0 +1,58 @@
+/* Background color of the body */
+
+body {
+    background-color: #F2F6F5;
+}
+
+/* Text styling */
+.title-header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.title-header-small,
+.container-header {
+    text-decoration: underline;
+}
+
+.desc {
+    font-style: italic;
+}
+
+/* Image styling */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5em 5em 5em 5em;
+    width: 50%;
+}
+
+/* Container styling and boxing */
+
+.container {
+    padding: 0.3em;
+    margin: 0.3em;
+    border: solid black 0.2em;
+    box-shadow: 0.3em 0.2em #0000007a;
+    border-radius: 0.2em 0.6em 0.2em 0.6em;
+}
+
+.recipe-link {
+    margin:0.3em;
+    margin-top: 0.8em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    border: solid 0.1em;
+    transition: .3s;
+}
+
+.recipe-link:hover{
+    font-size: 1.6rem;
+    background-color: #DADDE3;
+    transition: .4s;
+}
