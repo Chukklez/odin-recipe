@@ -4,8 +4,44 @@ body {
     background-color: #F2F6F5;
 }
 
+
+/* Navbar styling */
+
+.nav {
+    width: 100%;
+    background-color: #d9dbdb6c;
+    height: 4em;
+    font-size: 1.2em;
+    margin: 0em;
+    border-radius: 0.3em 0.3em 0.3em 0.3em;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 1em;
+}
+
+.nav li {
+    display: inline;
+    float: right;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 0.7em 1em;
+    color: black;
+}
+
+.nav a:hover {
+    background-color:#d9dbdb;
+    transition: 0.4s;
+}
+
 /* Text styling */
-.title-header {
+
+.title-header,
+.index-header {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -23,12 +59,17 @@ body {
 
 /* Image styling */
 
-img {
+.rec-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5em 5em 5em 5em;
     width: 50%;
+}
+
+.banner-container  {
+   display: flex;   
+   width: 100%;
 }
 
 /* Container styling and boxing */
