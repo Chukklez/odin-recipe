@@ -68,18 +68,27 @@ body {
 }
 
 .banner-container  {
-   display: flex;   
-   width: 100%;
+   display: flex;
+}
+
+.banner-container img {
+    width: 33vw;
 }
 
 /* Container styling and boxing */
 
-.container {
+.container,
+.about-container {
     padding: 0.3em;
     margin: 0.3em;
     border: solid black 0.2em;
     box-shadow: 0.3em 0.2em #0000007a;
     border-radius: 0.2em 0.6em 0.2em 0.6em;
+}
+
+.about-container {
+    width: 50em;
+    margin: auto;
 }
 
 .recipe-link {
