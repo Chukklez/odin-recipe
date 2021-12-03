@@ -50,6 +50,7 @@ body {
     height: 40vh;
     flex-grow: 1;
     list-style-type: none;
+    margin-top: 3em;
 }
 
 .recipe img {
@@ -65,9 +66,9 @@ body {
 }
 
 .recipe-image:hover {
-    -ms-transform: scale(1.1, 1.1);
-    -webkit-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
 }
 
 /* Text styling */
@@ -77,6 +78,7 @@ body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin-top: 2em;
 }
 
 
@@ -97,7 +99,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 5em 5em 5em 5em;
-    width: 50%;
+    height: 40em;
+    width: 40em;
 }
 
 .banner-container  {
