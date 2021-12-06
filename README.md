@@ -12,3 +12,13 @@ At the bottom of the page there is an "a href" link element that leads back to t
 
 <h2>What practices did I use in this project</h2>
 I made use of different html pages and using the "a href" link tag to connect them all together. I also learned to structure a basic website using the html and headers, paragraphs, img links, ordered and unordered lists.
+
+
+
+<h1>TO-DO LIST</h1>
+<ul>
+    <li>Add Categories for different recipes</li>
+    <li>Add Modal for the recipe image so that the name pops up on hover</li>
+    <li>Add media queries for mobile</li>
+    <li>Look over and edit existing recipes</li>
+</ul>
