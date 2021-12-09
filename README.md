@@ -21,4 +21,5 @@ I made use of different html pages and using the "a href" link tag to connect th
     <li>Add Modal for the recipe image so that the name pops up on hover</li>
     <li>Add media queries for mobile</li>
     <li>Look over and edit existing recipes</li>
+    <li>Redo design of website with flexbox instead</li>
 </ul>
